@@ -1,24 +1,16 @@
-# PWA-manipulation_of_text
+# Manipulation of Text
 
-## Your Task
+  ## Description
+  This application will create notes or code snippets with or without an internet connection so you can reliably retrieve them for later use
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+  ## Table Of Contents
+  - [Installation](#installation)
+  - [acceptance-criteria](#acceptance-criteria)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
-
-You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
-
-**Important**: Make sure your submission includes the `.npmrc` file in this starter code.  This will ensure your application will deploy properly to heroku.
-
-## User Story
-
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
+  ## Installation
+  The following necessary dependencies must be installed to run the application, mini-css-extract-plugin, webpack, and webpack-dev-server, concurrently, nodemon, express.
 
 ## Acceptance Criteria
 
@@ -49,3 +41,14 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
+  ## License
+  
+  This project is licensed under the The MIT License license.
+  This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
+  The license link can be found here https://opensource.org/licenses/MIT.
+
+  ## Contributing
+  Contributors: Victor Romero-Beltran
+
+  ## Questions
+  If you have any other questions about this project, please contact me directly at vromero.beltran2016@gmail.com or through GitHub at https://github.com/vromero-beltran.
