@@ -16,8 +16,8 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin({
-        template: "./src/index.html",
-        filename: "./client/src/index.html",
+        template: "./index.html",
+        filename: "./client/index.html",
         chunks: ["main"]
       }),
       new WebpackPwaManifest({
@@ -31,7 +31,7 @@ module.exports = () => {
         display: "standalone",
         icons: [
           {
-            src: path.resolve('assets/images/logo.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
